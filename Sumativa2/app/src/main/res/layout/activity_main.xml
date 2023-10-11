@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Charlar"
+        android:layout_width="96dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginEnd="37dp"
+        android:text="  Charlar"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/divider2"
+        app:layout_constraintEnd_toStartOf="@+id/Agendar"
+        app:layout_constraintStart_toEndOf="@+id/Contactos" />
+
+    <TextView
+        android:id="@+id/Contactos"
+        android:layout_width="96dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="25dp"
+        android:text="Contactos"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/divider2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/alumno8"
+        android:layout_width="95dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="30dp"
+        android:text="Alumno"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alumno6" />
+
+    <TextView
+        android:id="@+id/alumno7"
+        android:layout_width="95dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="30dp"
+        android:text="Alumno"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alumno" />
+
+    <TextView
+        android:id="@+id/alumno6"
+        android:layout_width="95dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="30dp"
+        android:text="Alumno"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alumno7" />
+
+    <ImageView
+        android:id="@+id/imgcuenta7"
+        android:layout_width="44dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgcuenta2"
+        app:srcCompat="@drawable/png_transparent_computer_icons_open_person_family_icon_black_silhouette_black_white_people_thumbnail" />
+
+    <ImageView
+        android:id="@+id/imgcuenta6"
+        android:layout_width="44dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgcuenta4"
+        app:srcCompat="@drawable/png_transparent_computer_icons_open_person_family_icon_black_silhouette_black_white_people_thumbnail" />
+
+    <ImageView
+        android:id="@+id/imgcuenta5"
+        android:layout_width="44dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider2"
+        app:srcCompat="@drawable/png_transparent_computer_icons_open_person_family_icon_black_silhouette_black_white_people_thumbnail" />
+
+    <ImageView
+        android:id="@+id/imgcuenta4"
+        android:layout_width="44dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgcuenta3"
+        app:srcCompat="@drawable/png_transparent_computer_icons_open_person_family_icon_black_silhouette_black_white_people_thumbnail" />
+
+    <ImageView
+        android:id="@+id/imgcuenta3"
+        android:layout_width="44dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgcuenta5"
+        app:srcCompat="@drawable/png_transparent_computer_icons_open_person_family_icon_black_silhouette_black_white_people_thumbnail" />
+
+    <ImageView
+        android:id="@+id/imgcuenta2"
+        android:layout_width="44dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgcuenta6"
+        app:srcCompat="@drawable/png_transparent_computer_icons_open_person_family_icon_black_silhouette_black_white_people_thumbnail" />
+
+    <TextView
+        android:id="@+id/alumno2"
+        android:layout_width="95dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="30dp"
+        android:text="Alumno"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alumno8" />
+
+    <TextView
+        android:id="@+id/alumno"
+        android:layout_width="95dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="30dp"
+        android:text="Alumno"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Profesor" />
+
+    <TextView
+        android:id="@+id/Buscar"
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="62dp"
+        android:text="Buscar"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/Cuenta"
+        app:layout_constraintStart_toEndOf="@+id/Hogar"
+        app:layout_constraintTop_toBottomOf="@+id/imgbuscar" />
+
+    <TextView
+        android:id="@+id/Hogar"
+        android:layout_width="61dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Hogar"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imghogar" />
+
+    <TextView
+        android:id="@+id/Cuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:text="Cuenta"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgcuenta" />
+
+    <ImageView
+        android:id="@+id/imghogar"
+        android:layout_width="49dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:foreground="@drawable/casa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <ImageView
+        android:id="@+id/imgbuscar"
+        android:layout_width="45dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="90dp"
+        app:layout_constraintEnd_toStartOf="@+id/imgcuenta"
+        app:layout_constraintStart_toEndOf="@+id/imghogar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lupa" />
+
+    <ImageView
+        android:id="@+id/imgcuenta"
+        android:layout_width="44dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/png_transparent_computer_icons_open_person_family_icon_black_silhouette_black_white_people_thumbnail" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="451dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/Profesor"
+        android:layout_width="95dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="52dp"
+        android:text="Profesor"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider2" />
+
+    <ScrollView
+        android:id="@+id/contain"
+        android:layout_width="367dp"
+        android:layout_height="392dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </ScrollView>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/Agendar"
+        android:layout_width="96dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="25dp"
+        android:text="  Agendar"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/divider2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
